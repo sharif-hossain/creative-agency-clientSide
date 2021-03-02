@@ -1,0 +1,23 @@
+.img-logo {
+    height: 50px;
+  }
+  .center-logo {
+    display: block;
+    text-align: center;
+  }
+  .login-bg {
+    background-color: #f1f5f8;
+    height: 760px;
+  }
+  .login-area {
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    min-height: 350px;
+    background-color: #fff;
+  }
+  .google-btn{
+      border: 1px solid lightgray;
+      border-radius: 50px;
+      padding: 5px;
+      cursor: pointer;
+  }

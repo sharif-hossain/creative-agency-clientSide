@@ -1,0 +1,22 @@
+/* input[type="file"]
+{
+  display: none;
+}
+.fileUpload input.upload 
+{
+    display: inline-block;
+}
+.fileUpload{
+    cursor: pointer;
+} */
+.form-bg{
+    background-color: #f1f5f8;
+    min-height: 600px;
+    padding: 40px;
+}
+.form-border{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    background-color: white !important;
+    padding: 10px;
+}

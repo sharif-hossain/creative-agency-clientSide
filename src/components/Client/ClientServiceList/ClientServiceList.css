@@ -1,0 +1,5 @@
+.profile-pic{
+    display: flex;
+    cursor: pointer;
+    margin-right: 10px;
+}

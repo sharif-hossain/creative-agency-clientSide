@@ -1,0 +1,9 @@
+.form-style{
+    background-color:#f1f5f8;
+    min-height: 700px;
+}
+.profile-pic{
+    display: flex;
+    cursor: pointer;
+    margin-right: 10px;
+}
