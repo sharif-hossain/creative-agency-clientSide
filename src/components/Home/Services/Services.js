@@ -7,7 +7,7 @@ const Services = () => {
     const [addService, setAddService] = useState([]);
     const history = useHistory();
     useEffect(()=>{
-        fetch('http://localhost:4000/getServices')
+        fetch('https://ancient-bastion-75645.herokuapp.com/getServices')
         .then(res => res.json())
         .then(data => setAddService(data));
     });

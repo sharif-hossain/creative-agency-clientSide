@@ -9,13 +9,13 @@ const ClientServiceList = () => {
     const [order, setOrder] = useState({});
     const [serviceList, setServiceList] = useState([]);
     // useEffect(()=>{
-    //     fetch('http://localhost:4000/getOrderedItem?id='+ order.id)
+    //     fetch('https://ancient-bastion-75645.herokuapp.com/getOrderedItem?id='+ order.id)
     //     .then(res => res.json())
     //     .then(data => setOrder(data));
     // })
 
     useEffect(() => {
-      fetch('http://localhost:4000/orderedList?email=' + loggedInUser.email)
+      fetch('https://ancient-bastion-75645.herokuapp.com/orderedList?email=' + loggedInUser.email)
         .then(res => res.json())
         .then(data => {
           setServiceList(data);

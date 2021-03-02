@@ -20,7 +20,7 @@ const Order = () => {
     setFile(newFile);
   };
 //   useEffect(()=>{
-//     fetch('http://localhost:4000/getServices')
+//     fetch('https://ancient-bastion-75645.herokuapp.com/getServices')
 //     .then(res => res.json())
 //     .then(data => setOrderInfo(data));
 // });
@@ -36,7 +36,7 @@ const Order = () => {
     formData.append("price", order.price);
     formData.append("orderId", id);
 
-    fetch("http://localhost:4000/addOrder", {
+    fetch("https://ancient-bastion-75645.herokuapp.com/addOrder", {
       method: "POST",
 
       body: formData,

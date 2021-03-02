@@ -30,7 +30,7 @@ const GetService = ({ service, handleClick}) => {
           <div style={{ display: "flex", justifyContent: "center" }}>
             <CardMedia
               className={classes.media}
-              image={`http://localhost:4000/${service.image}`}
+              image={`https://ancient-bastion-75645.herokuapp.com/${service.image}`}
               title="Contemplative Reptile"
             />
           </div>

@@ -22,7 +22,7 @@ const AddService = () => {
     formData.append("title", service.title);
     formData.append("description", service.description);
 
-    fetch('http://localhost:4000/addService', {
+    fetch('https://ancient-bastion-75645.herokuapp.com/addService', {
       method: 'POST',
       
       body: formData,

@@ -31,7 +31,7 @@ const OrderedItem = ({ item }) => {
             <div>
             <CardMedia
               className={classes.media}
-              image={`http://localhost:4000/${item.image}`}
+              image={`https://ancient-bastion-75645.herokuapp.com/${item.image}`}
               title="Contemplative Reptile"
             />
             </div>

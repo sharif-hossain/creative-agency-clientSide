@@ -53,7 +53,7 @@ const ServiceList = () => {
   const classes = useStyles();
 
   useEffect(()=>{
-    fetch('http://localhost:4000/totalOrder')
+    fetch('https://ancient-bastion-75645.herokuapp.com/totalOrder')
     .then(res => res.json())
     .then(data => setOrderedList(data));
   })
